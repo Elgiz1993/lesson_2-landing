@@ -114,6 +114,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   height: 816px;
   background: #B7BBC7 url("../img/images/bg-1.jpg") center no-repeat;
   background-size: cover;
@@ -168,4 +172,68 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin-top: 20px;
+}
+
+.designe {
+  overflow: hidden;
+}
+
+.designe_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.designe_inner_text {
+  width: 50%;
+  text-align: left;
+}
+.designe_inner_text .designe_title {
+  color: #ff6d6d;
+  font-family: "Exo";
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 3.2px;
+}
+
+.designe_title_2 {
+  color: #282828;
+  font-family: "Exo";
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  margin-bottom: 22.5px;
+}
+
+.red_dots {
+  color: #ff6d6d;
+}
+
+.designe_text {
+  opacity: 0.66;
+  color: #282828;
+  font-family: "Exo";
+  font-size: 18px;
+  font-weight: 500;
+  margin: 22.5px 0;
+}
+
+.designe_inner_img {
+  width: 50%;
+  height: 707px;
+  position: relative;
+}
+
+.design_img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(20%, -50%);
+          transform: translate(20%, -50%);
+  z-index: 999;
 }
