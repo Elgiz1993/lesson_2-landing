@@ -191,7 +191,8 @@ body {
   width: 50%;
   text-align: left;
 }
-.designe_inner_text .designe_title {
+
+.title {
   color: #ff6d6d;
   font-family: "Exo";
   font-size: 16px;
@@ -201,26 +202,26 @@ body {
   letter-spacing: 3.2px;
 }
 
-.designe_title_2 {
+.sub_title {
   color: #282828;
   font-family: "Exo";
   font-size: 40px;
   font-weight: 500;
   letter-spacing: 1.6px;
-  margin-bottom: 22.5px;
+  margin-bottom: 45px;
 }
 
 .red_dots {
   color: #ff6d6d;
 }
 
-.designe_text {
+.text {
   opacity: 0.66;
   color: #282828;
   font-family: "Exo";
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  margin: 22.5px 0;
+  line-height: 1.6;
 }
 
 .designe_inner_img {
@@ -233,7 +234,74 @@ body {
   position: absolute;
   top: 50%;
   left: 0;
-  -webkit-transform: translate(20%, -50%);
-          transform: translate(20%, -50%);
+  -webkit-transform: translate(30%, -50%);
+          transform: translate(30%, -50%);
   z-index: 999;
+}
+
+.features {
+  height: 680px;
+  background-color: #F6F5F3;
+  position: relative;
+}
+
+.features_inner {
+  padding: 130px 0 190px;
+}
+
+.features_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.features_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 45px -23px 0;
+}
+
+.features_item {
+  width: 33.333%;
+  text-align: center;
+  padding: 0 23px;
+}
+
+.sub_sub_title {
+  color: #282828;
+  font-family: "Exo";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 1;
+}
+
+.Pen_holder {
+  position: absolute;
+  top: 0;
+  left: 95px;
+}
+
+.Earphones {
+  position: absolute;
+  top: 0;
+  right: 180px;
+}
+
+.Coffee_Cup {
+  position: absolute;
+  bottom: 0;
+  right: 85px;
 }
