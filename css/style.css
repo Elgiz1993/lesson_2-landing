@@ -114,11 +114,17 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   height: 816px;
+  max-width: 1440px;
+  margin: 0 auto;
   background: #B7BBC7 url("../img/images/bg-1.jpg") center no-repeat;
   background-size: cover;
 }
@@ -233,15 +239,19 @@ body {
 .design_img {
   position: absolute;
   top: 50%;
-  left: 0;
-  -webkit-transform: translate(30%, -50%);
-          transform: translate(30%, -50%);
+  right: 0;
+  -webkit-transform: translate(24%, -50%);
+          transform: translate(24%, -50%);
   z-index: 999;
 }
 
 .features {
   height: 680px;
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: #F6F5F3;
+  background-image: url("../img/images/bgfeatures.jpg");
+  background-size: cover;
   position: relative;
 }
 
@@ -288,20 +298,138 @@ body {
   letter-spacing: 1;
 }
 
-.Pen_holder {
-  position: absolute;
-  top: 0;
-  left: 95px;
+.newdesigne {
+  height: 550px;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 
-.Earphones {
-  position: absolute;
-  top: 0;
-  right: 180px;
+.newdesigne_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
 }
 
-.Coffee_Cup {
+.newdesigne_image {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 26px;
+}
+
+.bground {
   position: absolute;
-  bottom: 0;
-  right: 85px;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.macbook {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.newdesigne_content {
+  height: 550px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 70px 0 26px;
+}
+
+.partners {
+  height: 650px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: url("../img/images/bgclients.jpg");
+}
+
+.partners_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.partners_human {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -35px;
+}
+
+.partners_inner_item {
+  width: 33.333%;
+  text-align: center;
+  padding: 110px 35px 0;
+}
+
+.image {
+  margin-bottom: 26px;
+}
+
+.name {
+  color: #ffffff;
+  font-family: "Exo";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.88px;
+}
+
+.partners_title {
+  color: #ff6d6d;
+  font-family: "Exo";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.text_white {
+  opacity: 0.66;
+  color: white;
+  font-family: "Exo";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.partners_company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 105px 50px 90px;
+}
+
+.partners_company_img {
+  width: 100px;
+  height: auto;
 }
