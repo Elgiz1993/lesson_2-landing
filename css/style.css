@@ -151,7 +151,7 @@ body {
   width: 59px;
 }
 
-.btn {
+.header_btn {
   display: inline-block;
   vertical-align: top;
   font-size: 16px;
@@ -168,7 +168,7 @@ body {
   -webkit-transition: background 0.1s linear;
   transition: background 0.1s linear;
 }
-.btn:hover {
+.header_btn:hover {
   background-color: #e33434;
 }
 
@@ -432,4 +432,150 @@ body {
 .partners_company_img {
   width: 100px;
   height: auto;
+}
+
+.newfeatures {
+  max-width: 1440px;
+  height: 755px;
+  margin: 0 auto;
+  background-color: #F6F5F3;
+  overflow: hidden;
+}
+
+.newfeatures_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newfeatures_inner_text {
+  text-align: center;
+  padding: 100px 260px;
+}
+
+.newfeatures_window {
+  -webkit-box-shadow: 0 1px 7px 8.5px #ecebe9;
+          box-shadow: 0 1px 7px 8.5px #ecebe9;
+}
+
+.newfeatures2 {
+  height: 470px;
+  max-width: 1440px;
+  background-color: #323969;
+  margin: 0 auto;
+  position: relative;
+}
+
+.newfeatures2_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 85px 0;
+}
+
+.newfeatures2_inner_text {
+  text-align: center;
+}
+
+.sub_title_white {
+  color: #ffffff;
+  font-family: "Exo";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 49.97px;
+  letter-spacing: 1.6px;
+  margin-bottom: 95px;
+}
+
+.newfeatures2_inner_btn {
+  margin: 0 -15px;
+}
+
+.input-btn {
+  width: 260px;
+  height: 50px;
+  border-radius: 3px;
+  margin: 0 15px;
+}
+
+.input {
+  border: 1px solid #ffffff;
+  background-color: #464D78;
+  padding: 18px 30px;
+  color: white;
+}
+
+.input::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.input::-moz-placeholder {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.input:-ms-input-placeholder {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.input::-ms-input-placeholder {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.input::placeholder {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.new_btn {
+  -webkit-box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+          box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+  border: 1px solid #ff6d6d;
+  background-color: #ff6d6d;
+  line-height: 1.5;
+  color: #f6f5f3;
+  -webkit-transition: background 0.1s linear;
+  transition: background 0.1s linear;
+}
+.new_btn:hover {
+  background-color: #e33434;
+}
+
+.newfeatures2_inner_subtext {
+  margin-top: 50px;
+}
+
+.free {
+  position: absolute;
+  top: 45%;
+  right: 13%;
+}
+
+.arrow {
+  position: absolute;
+  top: 10%;
+  right: 160px;
 }
