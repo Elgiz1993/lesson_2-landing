@@ -1,0 +1,75 @@
+.partners {
+	height: 650px;
+	max-width: 1440px;
+	margin: 0 auto;
+	background-image: url("../img/images/bgclients.jpg");
+ }
+ 
+ .partners_inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		 -ms-flex-direction: column;
+			  flex-direction: column;
+ }
+ 
+ .partners_human {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 -35px;
+ }
+ 
+ .partners_inner_item {
+	width: 33.333%;
+	text-align: center;
+	padding: 110px 35px 0;
+ }
+ 
+ .image {
+	margin-bottom: 26px;
+ }
+ 
+ .name {
+	color: #ffffff;
+	font-family: "Exo";
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 1.1;
+	letter-spacing: 0.88px;
+ }
+ 
+ .partners_title {
+	color: #ff6d6d;
+	font-family: "Exo";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 50px;
+ }
+ 
+ .text_white {
+	opacity: 0.66;
+	color: white;
+	font-family: "Exo";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.6;
+ }
+ 
+ .partners_company {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+		 -ms-flex-pack: justify;
+			  justify-content: space-between;
+	padding: 105px 50px 90px;
+ }
+ 
+ .partners_company_img {
+	width: 100px;
+	height: auto;
+ }
+ 
