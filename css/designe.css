@@ -14,6 +14,7 @@
  .designe_inner_text {
 	width: 50%;
 	text-align: left;
+	padding-left: 10px;
  }
  
  .title {
@@ -61,4 +62,18 @@
 	-webkit-transform: translate(24%, -50%);
 			  transform: translate(24%, -50%);
 	z-index: 999;
+ }
+
+ @media screen and (max-width:1024px){
+	.designe_inner_img{
+		display: none;
+	}
+	.designe_inner_text {
+		width: 80%;
+		text-align: center;
+	 }
+	 .designe_inner{
+		justify-content: center;
+		margin: 20px 0;
+	 }
  }
