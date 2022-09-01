@@ -1,0 +1,33 @@
+.newfeatures {
+	max-width: 1440px;
+	height: 755px;
+	margin: 0 auto;
+	background-color: #F6F5F3;
+	overflow: hidden;
+ }
+ 
+ .newfeatures_inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		 -ms-flex-direction: column;
+			  flex-direction: column;
+	-webkit-box-pack: center;
+		 -ms-flex-pack: center;
+			  justify-content: center;
+	-webkit-box-align: center;
+		 -ms-flex-align: center;
+			  align-items: center;
+ }
+ 
+ .newfeatures_inner_text {
+	text-align: center;
+	padding: 100px 260px;
+ }
+ 
+ .newfeatures_window {
+	-webkit-box-shadow: 0 1px 7px 8.5px #ecebe9;
+			  box-shadow: 0 1px 7px 8.5px #ecebe9;
+ }
