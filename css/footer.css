@@ -1,0 +1,59 @@
+.footer {
+	max-width: 1450px;
+	height: 335px;
+	margin: 0 auto;
+}
+
+.footer_inner {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 90px 0;
+	margin: 0 -25px;
+
+}
+
+.footer_title {
+	color: #282828;
+	font-family: "Exo";
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 2;
+	letter-spacing: 1;
+}
+
+
+.info {
+	width: 25%;
+	padding: 0 25px;
+}
+
+
+
+.footer_input {
+	display: flex;
+}
+
+.info_input {
+	width: 263px;
+	height: 49px;
+	opacity: 0.4;
+	border: 1px solid #4e4e5e;
+	border-radius: 3px;
+}
+
+.info_input::placeholder {
+	font-family: Exo;
+	font-size: 20px;
+	color: #000000;
+	padding-left: 30px;
+}
+
+.footer_send-btn {
+	width: 60px;
+	height: 49px;
+	background-color: #ff6d6d;
+	border: 1px solid #ff6d6d;
+	box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+	border-radius: 3px;
+}
